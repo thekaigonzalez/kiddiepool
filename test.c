@@ -6,6 +6,11 @@ main(void) {
   Block* __main = block_init();
 
   char* ptr = alloc(__main, 11);
+  char* ptr2 = alloc(__main, 11);
+  char* ptr3= alloc(__main, 11);
+  char* ptr4 = alloc(__main, 11);
+  char* ptr5 = alloc(__main, 11);
+  char* ptr6 = alloc(__main, 11);
   
   ptr[0] = 'h';
   ptr[1] = 'e';
