@@ -4,3 +4,13 @@ kiddiepool
 
       leaving this code up for a reference, in case i decide to port similar
       features into future projects.
+
+how it works
+
+      pools are simply blocks of memory that are allocated and freed in
+      sequence.
+
+      this program will simply allow you to allocate memory on a block, once you
+      allocate that memory it will save it to a list, therefore allowing you to
+      only call one free function instead of having to keep track of every
+      pointer that comes in and out of the object pool.
